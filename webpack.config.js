@@ -21,6 +21,7 @@ const BANNER = [
 ].join('\n');
 
 module.exports = {
+  devtool: 'source-map',
   mode: isProduction ? 'production' : 'development',
   entry: './src/index.js',
   output: {
