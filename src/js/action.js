@@ -321,6 +321,9 @@ export default {
         /* eslint-disable */
         preset: (presetType) => {
           switch (presetType) {
+            case 'preset-rule':
+                this.setCropzoneRect(Number(this.ui.options.ratioRule));
+                break;
             case 'preset-square':
               this.setCropzoneRect(1 / 1);
               break;

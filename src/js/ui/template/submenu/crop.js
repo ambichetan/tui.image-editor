@@ -13,6 +13,12 @@ export default ({ locale, makeSvgIcon }) => `
                 </div>
                 <label> ${locale.localize('Custom')} </label>
             </div>
+            <div class="tui-image-editor-button preset preset-rule">
+                <div>
+                    ${makeSvgIcon(['normal', 'active'], 'crop', true)}
+                </div>
+                <label> ${locale.localize('Rule')} </label>
+            </div>
             <div class="tui-image-editor-button preset preset-square">
                 <div>
                     ${makeSvgIcon(['normal', 'active'], 'crop', true)}
