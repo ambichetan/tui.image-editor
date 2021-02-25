@@ -1,13 +1,13 @@
 {
   "name": "@ambichetan/tui-image-editor",
   "author": "NHN FE Development Lab <dl_javascript@nhn.com>",
-  "version": "3.13.0",
+  "version": "3.14.0",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ambichetan/tui.image-editor.git"
   },
-  "main": "dist/tui-image-editor.js",
+  "main": "dist/@ambichetan/tui-image-editor.js",
   "files": [
     "src",
     "dist",
